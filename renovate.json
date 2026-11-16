@@ -2,5 +2,6 @@
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
 	"dependencyDashboard": true,
 	"semanticCommits": "enabled",
-	"commitMessagePrefix": "WSD-0000 | {{semanticCommitType}}{{#if semanticCommitScope}}({{semanticCommitScope}}){{/if}}:"
+	"commitMessagePrefix": "WSD-0000 | {{semanticCommitType}}{{#if semanticCommitScope}}({{semanticCommitScope}}){{/if}}:",
+	"configMigration": true
 }
